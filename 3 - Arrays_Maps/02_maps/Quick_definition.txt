@@ -1,0 +1,7 @@
+A map is used to represent a collection of key-value pairs. The keys need to be of a primitive data type. 
+A map is defined using the map keyword. By default, maps are immutable. 
+We can define a mutable map using the mut keyword.
+
+Maps are like dictionary types in other programming languages such as Dictionary in C#, HashMap in Java, and dict in Python. 
+We will explore how to work with maps, including various ways in which to initialize maps. 
+Then, we will look at how to add, update, or delete key-value pairs from the map.
