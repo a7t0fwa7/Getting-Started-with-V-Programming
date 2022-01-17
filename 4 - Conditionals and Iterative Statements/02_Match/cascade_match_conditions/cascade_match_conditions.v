@@ -25,14 +25,14 @@ fn breakfast_menu(day string) string {
 
 fn main() {
 	friday_menu := breakfast_menu('Friday')
-	println(friday_menu)
+	println('The Friday Menu is : $friday_menu')
 
 	sunday_menu := breakfast_menu('Sunday')
-	println(sunday_menu)
+	println('The Sunday Menu is: $sunday_menu')
 
 	tuesday_menu := breakfast_menu('Tuesday')
-	println(tuesday_menu)
+	println('The Tuesday Menu is: $tuesday_menu')
 
 	thursday_menu := breakfast_menu('Thursday')
-	println(thursday_menu)
+	println('The Thursday Menu is: $thursday_menu')
 }

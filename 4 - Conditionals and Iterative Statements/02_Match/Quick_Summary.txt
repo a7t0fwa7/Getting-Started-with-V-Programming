@@ -1,0 +1,40 @@
+match: 
+A match block does the job of pattern matching the conditions specified inside its code block. 
+In most scenarios, it is also used as a switch case. As V does not have a switch case block, 
+similar functionality can be achieved with the help of a match block.
+
+First, we will learn about the basic syntax of a match block, and then, in the subsequent sections, 
+we will look at various use cases of a match block, including the following:
+
+A match block as a switch case
+
+The cascading conditions of a match block
+Using match with an else condition along with enum types
+Using match block for pattern matching
+The following is the syntax for a match statement using the match keyword:
+
+match VALUE {
+
+    CONDITION_1 { /*CONDITION_1 matched.*/ }
+
+    CONDITION_2 { /*CONDITION_2 matched.*/ }
+
+    ..
+
+    CONDITION_N { /*CONDITION_N matched.*/ }
+
+    else { /*None of the patterns match. Do other routine.*/ }
+
+}
+
+To summarize, the match block expects the following:
+
+The conditions should be of a similar type to the value being passed to the match block.
+The return types of all the conditional branches of a match block must be of a similar type.
+The match block must be exhaustive in the case that not all of the possible conditions are specified. 
+This can be achieved using the else block at the end.
+The case of a match block cannot be handled more than once. This is applicable for ranges too, and V 
+does the automatic checking of duplicate ranges or overlapping ranges of a pattern match during compile time 
+and throws an error that says match case is handled more than once.
+Now that we have understood the basic syntax of a match block, we will now proceed further and examine the 
+different ways in which you can work with a match block.
