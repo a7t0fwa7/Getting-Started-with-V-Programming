@@ -36,3 +36,12 @@ fn main() {
 	println('Due date updated second time: $n.due')
 	println(n)
 }
+
+/*
+To update the fields of a struct type, there are two approaches:
+
+The first approach is the implicit way to access the fields of a struct which is a 
+field of parent struct value. We then use equals (=) sign to modify its value.
+The other approach is that you can explicitly specify the name of the struct field and then specify 
+the corresponding fields of the struct and update the value using the equals (=) sign.
+*/
