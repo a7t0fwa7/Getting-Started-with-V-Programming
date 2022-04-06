@@ -12,3 +12,7 @@ fn main() {
 
 	n.message = 'a simple struct updated' // throws error
 }
+
+/*
+To update a field of a struct, it is necessary that both the field and the variable to which the struct is initialized are mutable.
+*/
