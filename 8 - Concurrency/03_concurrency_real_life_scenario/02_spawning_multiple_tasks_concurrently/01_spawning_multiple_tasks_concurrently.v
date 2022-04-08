@@ -29,3 +29,11 @@ fn main() {
 	t.wait()
 	println('Your pre bath morning chores took: $sw.elapsed().seconds() seconds')
 }
+
+/*
+After spawning the three tasks so that they run concurrently, the program is waiting for all of these tasks to finish executing. 
+It does so by invoking the t.wait() statement. A call to the wait() function on the array of threads blocks the main program until 
+all the concurrent tasks held in that array have been completed.
+*/
+
+
